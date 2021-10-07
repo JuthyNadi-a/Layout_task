@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(122, 147, 221);
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    width: 900px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+section{
+    background-color: white;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+}
+.section-title{
+    color: violet;
+}
+.top-desserts{
+    display: grid;
+    grid-gap:30px;
+    margin-top: 20px;
+    place-items: center;
+}
+.top-desserts{
+    grid-template-columns: repeat(3, 1fr);
+}
+.cake {
+    display: flex;
+    align-items: center;
+}
+.cake img{
+    width: 80px;
+    height: 50px;
+    margin-right: 20px;
+}
