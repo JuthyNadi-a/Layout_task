@@ -18,7 +18,7 @@ section{
     border-radius: 10px;
 }
 .section-title, h2{
-    color: violet;
+    color: rgb(67, 52, 133);
 }
 .top-desserts, .blogs{
     display: grid;
@@ -52,7 +52,7 @@ section{
     text-align: justify;
 }
 h2 {
-    margin-bottom: 2px;
+    margin-bottom: 5px;
     text-align: left;
 }  
 .float {
