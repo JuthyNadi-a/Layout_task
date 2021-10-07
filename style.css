@@ -17,7 +17,7 @@ section{
     margin: 1em;
     border-radius: 10px;
 }
-.section-title{
+.section-title, h2{
     color: violet;
 }
 .top-desserts, .blogs{
@@ -51,10 +51,9 @@ section{
 .box {
     text-align: justify;
 }
-h3 {
+h2 {
     margin-bottom: 2px;
-    text-align: center;
-    color: rgb(11, 11, 65);
+    text-align: left;
 }  
 .float {
     float: left;
